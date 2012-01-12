@@ -1,0 +1,15 @@
+Thanks to Hossein Ahmadi for coding the first version of GreenGPS!
+
+------------------------------------------------------------------
+
+OBD-II base implementation adapted from :
+	http://code.google.com/p/obdroid/
+	
+Alarm Service implementation adapted from :
+	https://github.com/commonsguy/cw-advandroid/tree
+	
+ELM 327 manual:
+	http://elmelectronics.com/DSheets/ELM327DS.pdf
+	
+PID list from:
+	http://en.wikipedia.org/wiki/OBD-II_PIDs#Standard_PIDs

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+  >
+  <ImageView android:id="@+id/test_image"
+   android:src="@drawable/map"
+   android:layout_width="320px"
+   android:layout_height="276px"
+   android:scaleType="fitXY"
+   />
+  <RadioGroup
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    <RadioButton android:id="@+id/radio_fast"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="Fastest Route" />
+    <RadioButton android:id="@+id/radio_short"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="Shortest Route" />
+    <RadioButton android:id="@+id/radio_fuel"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="Least-fuel Route" />
+  </RadioGroup>
+  <TextView android:id="@+id/tv"
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:text="Developed at the University of Illinois at Urbana Champaign"
+    android:textSize="11px"
+    />
+</LinearLayout>
+

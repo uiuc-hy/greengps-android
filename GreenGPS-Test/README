@@ -1,0 +1,28 @@
+========== OBD_SERVER ==========
+
+You will need to install PyBluez and maybe even LightBlue 
+(do a search with the synaptic package manager)
+
+All the data outputted by this script is junk! 
+Use for testing GreenGPS without a car.
+
+========= INSTRUCTIONS =========
+
+1. Connect your phone to a power source
+
+2. Pair your laptop with your phone. To be safe, make sure
+the phone only has one paired device (your laptop)
+
+3. Start the OBD-II server
+
+	$ python obd_server.py
+
+4. Start GreenGPS on your phone. Watch the fake data fly by
+
+NOTE1: on first start, GreenGPS will destroy the GUI and leave
+a singleton thread running in the background. Press the app 
+icon again to see some log output on the screen.
+
+NOTE2: initializing GPS and Bluetooth takes time. If you see
+a dialog asking whether you would like to Force Quit or Wait,
+select Wait.

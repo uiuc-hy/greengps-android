@@ -1,0 +1,13 @@
+There are three Android applications required to allow GreenGPS 
+to run continuously in a testbed environment.
+
+1. GreenGPS: the application that collects/stores/uploads data
+2. AppMonitor: the service that checks on GreenGPS every 10 minutes
+	to make sure it hasn't been killed randomly by memory management
+3. SystemStability: the service that restarts the phone everyday
+	some time between midnight and 1:00 am to refresh the OS
+
+To test the GreenGPS application, you may use the script inside 
+GreenGPS-Test to simulate a car engine on your laptop.
+
+The makefiles were written for the latest Android SDK
