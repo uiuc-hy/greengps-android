@@ -1,4 +1,6 @@
-Thanks to Hossein Ahmadi for coding the first version of GreenGPS!
+Thanks to Hossein Ahmadi for coding the original version of GreenGPS.
+Also, much thanks to Omid Fatemieh and Roberto de Matos for their 
+patience in testing and reviewing my buggy code.
 
 ------------------------------------------------------------------
 
@@ -6,7 +8,7 @@ OBD-II base implementation adapted from :
 	http://code.google.com/p/obdroid/
 	
 Alarm Service implementation adapted from :
-	https://github.com/commonsguy/cw-advandroid/tree
+	https://github.com/commonsguy/cw-advandroid
 	
 ELM 327 manual:
 	http://elmelectronics.com/DSheets/ELM327DS.pdf

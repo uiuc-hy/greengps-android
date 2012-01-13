@@ -5,7 +5,7 @@ import android.content.Context;
 import android.content.Intent;
 
 /**
- * Adapted from https://github.com/commonsguy/cw-advandroid/tree
+ * Adapted from https://github.com/commonsguy/cw-advandroid
  *
  */
 public class OnAlarmReceiver extends BroadcastReceiver {

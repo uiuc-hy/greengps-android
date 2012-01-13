@@ -9,7 +9,7 @@ import android.content.Intent;
 import android.os.Environment;
 
 /**
- * Adapted from https://github.com/commonsguy/cw-advandroid/tree
+ * Adapted from https://github.com/commonsguy/cw-advandroid
  *
  */
 public class AppService extends WakefulIntentService {

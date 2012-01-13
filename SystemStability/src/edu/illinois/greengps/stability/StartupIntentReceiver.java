@@ -10,7 +10,7 @@ import android.content.Intent;
 import android.util.Log;
 
 /**
- * Adapted from https://github.com/commonsguy/cw-advandroid/tree
+ * Adapted from https://github.com/commonsguy/cw-advandroid
  *
  */
 public class StartupIntentReceiver extends BroadcastReceiver {

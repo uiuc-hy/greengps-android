@@ -6,7 +6,7 @@ import android.content.Intent;
 import android.os.PowerManager;
 
 /**
- * Adapted from https://github.com/commonsguy/cw-advandroid/tree
+ * Adapted from https://github.com/commonsguy/cw-advandroid
  *
  */
 abstract public class WakefulIntentService extends IntentService {
